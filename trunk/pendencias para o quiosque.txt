@@ -1,0 +1,12 @@
+-mudar layout com novas cores e estilo windows 8 .. tipow chapadas
+
+- mudar forma de entrada dos cartoes, verificar um meio
+de consultar apenas o cartao que está em mãos do cliente
+
+a- ver por cpf que é o codigo de barras
+b- ver por codigo do cliente atras do cartao.
+c- ver automaticamente pelo sistema qual o cliente tem e mostrar
+
+
+
+http://www.techtudo.com.br/dicas-e-tutoriais/noticia/2014/07/como-acessar-o-windows-depois-de-esquecer-ou-perder-senha.html
