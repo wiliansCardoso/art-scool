@@ -146,14 +146,6 @@ Type
     AdvMain: TAdvToolBarPager;
     PageCadastro: TAdvPage;
     BarBase1: TAdvToolBar;
-    AdvGlowMenuButton1: TAdvGlowMenuButton;
-    BarBase2: TAdvToolBar;
-    AdvGlowButton7: TAdvGlowButton;
-    AdvGlowMenuButton6: TAdvGlowMenuButton;
-    BarBasePromo: TAdvToolBar;
-    AdvGlowMenuButton9: TAdvGlowMenuButton;
-    AdvToolBar4: TAdvToolBar;
-    AdvGlowMenuButton19: TAdvGlowMenuButton;
     AdvShapeButton1: TAdvShapeButton;
     AdvQuickAccessToolBar1: TAdvQuickAccessToolBar;
     AdvGlowMenuButton5: TAdvGlowMenuButton;
@@ -188,6 +180,17 @@ Type
     Minimizartodas1: TMenuItem;
     N1: TMenuItem;
     FecharTodas1: TMenuItem;
+    AdvToolBar1: TAdvToolBar;
+    AdvToolBar2: TAdvToolBar;
+    DBAdvGlowButton1: TDBAdvGlowButton;
+    DBAdvGlowButton2: TDBAdvGlowButton;
+    DBAdvGlowButton3: TDBAdvGlowButton;
+    DBAdvGlowButton4: TDBAdvGlowButton;
+    DBAdvGlowButton5: TDBAdvGlowButton;
+    DBAdvGlowButton6: TDBAdvGlowButton;
+    DBAdvGlowButton7: TDBAdvGlowButton;
+    DBAdvGlowButton8: TDBAdvGlowButton;
+    DBAdvGlowButton9: TDBAdvGlowButton;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }
