@@ -1,0 +1,71 @@
+Campos para tab_alunos
+
+a) cadastro do aluno
+codigo
+nome do aluno
+nr. matricula
+data matricula
+nacionalidade
+naturalidade
+cpf
+rg
+data nascimento
+sexo
+estado civil
+endereço
+nr casa
+bairro
+cep
+cidade
+estado
+fone celular
+fone residencia
+email
+observaçoes
+flag se esta ativo
+foto
+
+b)dados responsavel
+nome pai
+profissao
+nacionalidade
+naturalidade
+fone residencia
+fone celular
+email
+cpf
+rg
+---
+nome mae
+profissao
+nacionalidade
+naturalidade
+fone residencia
+fone celular
+email
+cpf
+rg
+observaçoes
+
+c)informacoes do curso
+nome do curso  (buscar tab_cursos)
+valor da matricula
+valor total do curso
+campo para nr de parcelas
+valor das parcelas
+dia da semana do curso
+data inicio
+data final
+--
+valor do material
+nr de parcelas
+valor parcelas
+
+** fazer isso ser inserido numa grid
+para poder ter varios cursos
+
+d) informaçoes de turma
+grid para mostrar a turma a qual o aluno
+faz parte...
+
+
