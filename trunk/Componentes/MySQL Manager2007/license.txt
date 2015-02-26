@@ -1,0 +1,41 @@
+Copyright (C) 1999-2007 EMS Database Management Solutions, Inc.
+All rights reserved.
+
+IMPORTANT: PLEASE READ THIS AGREEMENT CAREFULLY BEFORE USING THE SOFTWARE.
+
+END USER LICENSE AGREEMENT
+EMS Database Management Solutions, Inc. ("EMS") agrees to provide the user ("USER") with a copy of this software product ("SOFTWARE"), and grants the USER a limited license to use the SOFTWARE. This LICENSE AGREEMENT ("LICENSE") defines what the USER may do with the SOFTWARE, and contains limitations on warranties, liabilities and remedies. This LICENSE may be revoked by EMS at any time without notice if the USER fails to comply with the terms of this LICENSE. The copyright and all other rights in the SOFTWARE shall remain with EMS.
+
+LICENSE OF UNREGISTERED SOFTWARE
+An unregistered copy of the SOFTWARE ("UNREGISTERED SOFTWARE") may be used by the USER for evaluation purposes for a period of thirty (30) days following the initial installation of the UNREGISTERED SOFTWARE. At the end of the trial period ("TRIAL PERIOD"), the USER must either register the SOFTWARE or remove it from his system. The UNREGISTERED SOFTWARE may be freely copied and distributed to other users for their evaluation.
+
+LICENSE OF REGISTERED SOFTWARE
+A registered copy of the SOFTWARE ("REGISTERED SOFTWARE") allows the USER to use the SOFTWARE only on a single computer or network and only by a single user at a time. If the USER wishes to use the SOFTWARE for more than one user, the USER will need a separate license for each individual user. The USER is allowed to make one copy of the REGISTERED SOFTWARE for back-up purposes.
+
+DISTRIBUTION OF UNREGISTERED SOFTWARE
+The uninstalled, UNREGISTERED SOFTWARE may be freely copied and distributed to other users provided the USER complies with the following requirements. If the USER offers this uninstalled, UNREGISTERED SOFTWARE for download ("SHAREWARE SITE USER"), then the SHAREWARE SITE USER agrees to:
+(1) Immediately replace this version of the uninstalled, UNREGISTERED SOFTWARE with a new version of this SOFTWARE if a new version is released by EMS, or 
+(2) Delete this version of the UNREGISTERED SOFTWARE immediately upon written email notice by EMS.
+
+TERM OF LICENSE
+This LICENSE shall continue for as long as the USER uses the REGISTERED SOFTWARE and/or distributes the UNREGISTERED SOFTWARE according to the terms of this agreement.
+However, this LICENSE will terminate if the USER fails to comply with any of its terms or conditions. The USER agrees, upon termination, to destroy all copies of the REGISTERED and/or UNREGISTERED SOFTWARE. The limitations of warranties and liability set forth in this LICENSE shall continue in force even after termination.
+
+ACCEPTANCE OF THIS LICENSE AGREEMENT
+By downloading and/or installing this SOFTWARE, the USER agrees to the terms of this LICENSE.
+
+DISCLAIMER OF WARRANTY AND LIABILITY
+
+THE SOFTWARE AND THE ACCOMPANYING FILES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, EMS DISCLAIMS ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF PERFORMANCE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL EMS BE LIABLE FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL OR INCIDENTAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION OR LOSS OF BUSINESS INFORMATION) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE.
+
+ANY LIABILITY OF EMS WILL BE LIMITED EXCLUSIVELY TO PRODUCT REPLACEMENT OR REFUND OF ORIGINAL PURCHASE PRICE.
+
+OTHER RESTRICTIONS
+The USER may not rent, lease, sublicense, translate, disassemble, reverse engineer, or de-compile the SOFTWARE, or modify or merge the SOFTWARE with any part of the software in another program. This LICENSE may not be assigned or otherwise transferred without the prior written consent of EMS.
+
+INVALID PROVISIONS
+If any provision of this LICENSE shall be declared invalid or unenforceable, the remaining provisions of this LICENSE shall remain in full force and effect to the fullest extent permitted by law. In such event, each provision of this LICENSE which is invalid or unenforceable shall be replaced with a provision as similar in terms to such invalid or unenforceable provision as may be possible which is legal and enforceable.
+
+ENTIRE AGREEMENT
+This LICENSE is the entire agreement between EMS and the USER, and supersedes any other agreement, oral or written, and may not be changed except by a written signed agreement.
+
