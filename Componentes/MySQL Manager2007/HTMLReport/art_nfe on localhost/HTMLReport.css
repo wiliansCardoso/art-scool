@@ -1,0 +1,240 @@
+body
+        {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        background: #ffffff;
+        color: #000000;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 70%;
+        width: 100%;
+        }
+
+
+div#nsbanner
+        {
+        position: relative;
+        left: 0px;
+        padding: 0px 0px 5px 0px;
+        border-bottom: 1px solid #999999;
+        background-color: #ffffff;
+        }
+
+div#bannerrow1
+        {
+        background-color: #ffffff;
+        }
+
+div#titlerow
+        {
+        width: 100%; /* Forces tables to have correct right margin */
+        padding: 0px 10px 0px 22px;
+        background-color: #ffffff;
+        }
+
+
+div.tablediv
+        {
+        width: 100%;
+        margin-top: -.4em;
+        }
+
+.dtH1, .dtH2, .dtH3, .dtH4
+        {
+        margin-left: -16px;
+        font-weight: bold;
+        font-size: 10pt;
+        }
+
+
+table
+        {
+
+        margin-top: .6em;
+        margin-bottom: .3em;
+        font-size: 100%; /* Text in Table is same size as text outside table */
+        }
+
+
+table.bannerparthead, table.bannertitle
+        {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        height: 21px;
+        border-collapse: collapse;
+        border-style: solid;
+        border-width: 0px;
+        background-color: #ffffff;
+        }
+table.bannerparthead td
+        {
+        margin: 0px 0px 0px 0px;
+        padding: 2px 0px 0px 8px;
+        vertical-align: top;
+        /*border-width: 0px 0px 1px 0px; */
+        border-width: 0px
+        border-style: solid;
+        border-color: #999999;
+        background: transparent;
+        font-style: italic;
+        font-weight: normal;
+        }
+table.bannerparthead td.product /* Values for top right cell in running head */
+        {                       /* Allows for a second text block in the running head */
+        text-align: right;
+        padding: 2px 5px 0px 5px;
+        }
+table.bannertitle td /* General Values for cells in the bottom row of running head */
+        {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 3px;
+        vertical-align: middle;
+        border-width: 0px 0px 1px 0px;
+        border-style: solid;
+        border-color: #999999;
+        background: transparent;
+        font-weight: bold;
+        }
+td.button1 /* Values for button cells */
+        {
+        width: 13px;
+        cursor: hand;
+        }
+
+
+
+.dtTABLE
+        {
+        border-width: 1px 1px 0px 0px;
+        border-style: solid;
+        border-color: #999999;
+        }
+table.dtTABLE th, table.dtTABLE td
+        {
+        border-style: solid; /* Creates the cell border and color */
+        border-width: 0px 0px 1px 1px;
+        border-style: solid;
+        border-color: #999999;
+        text-align: left;
+        }
+
+/* Arguments table  */
+
+.dtArg
+        {
+        margin-left: 25px;
+        border-width: 1px 1px 0px 0px;
+        border-style: solid;
+        border-color: #999999;
+        }
+table.dtArg th
+        {
+        border-style: solid; /* Creates the cell border and color */
+        border-width: 0px 0px 1px 1px;
+        border-style: solid;
+        border-color: #999999;
+        background: #E0E0E0;
+        text-align: left;
+        vertical-align: top;
+        }
+table.dtArg td
+        {
+        border-style: solid; /* Creates the cell border and color */
+        border-width: 0px 0px 1px 1px;
+        border-style: solid;
+        border-color: #999999;
+        vertical-align: top;
+        }
+
+
+
+.Base   {
+        font-size: 8pt;
+        margin: 4pt  4pt  3pt  25px;
+        }
+
+.Base2  {
+        font-size: 8pt;
+        margin: 2pt  2pt  3pt  5px
+        }
+
+.Header1
+        {
+        font-size: 8pt;
+        font-weight: bold;
+        margin: 4pt  4pt  3pt  5pt
+        }
+
+.RedHeader
+        {
+        font-size: 8pt;
+        font-weight: bold;
+        margin: 4pt  4pt  3pt  5pt;
+        color: red
+        }
+
+     .Syntax { font-size: 8pt ; margin: 2pt  2pt  3pt  0.2in ; font-family: Courier New;  }
+     .Syntax2 { font-size: 8pt ; margin: 0pt  0pt  0pt  0.05in; font-family: Courier New;  }
+     .Bullet { font-size: 8pt ; margin: 2pt  2pt  3pt  0.2in ; font-family: Wingdings;  }
+
+     .Tbl {position: relative; left: 0.23px; width: 96%}
+
+.SyntaxTbl
+        {
+        position: relative;
+        left: 0.23px;
+        width: 96%;
+        }
+
+     .Tbl2 {position : relative; left: 0.25px}
+     .Tbl3 {margin: 2pt 2pt 3pt 0.25px}
+     .NavTbl {position : relative; left: 0pt; width: 100%}
+     .BannerBase { font-size: 9pt ; font-style: italic; color: #0000a0; margin: 0pt  0pt  0pt  0.05in ; font-family:
+Verdana;  fhname: "Banner
+Base"; }
+     .BannerBase1 { font-size: 10pt ; font-weight: bold; color: #0000a0; margin: 0pt  0pt  0pt  2pt ; font-family:
+Verdana;  fhname: "Banner
+Base"; }
+
+
+     .Base1 { font-size: 9pt ; margin: 2pt  0pt  3pt  0pt ; font-family: ITCGaramondMM_350_550_,sans-serif;  fhname:
+"Base#1"; }
+     .Example { font-size: 10pt ; margin: 2pt  0pt  3pt  34pt ; text-indent: -0.2291in ; font-family: MS Sans Serif,sans-
+serif;  }
+     .IBMain { font-size: 10pt ; margin: 2pt  0pt  3pt  0pt ; font-family: Microsoft Sans Serif,sans-serif;  fhname:
+"IB_Main"; }
+     .Syntax1 { font-size: 10pt ; font-family: Courier New,sans-serif;  fhname: "Syntax#1"; fhtype: character; }
+     .UnderlinedHeader { font-size: 10pt ; font-weight: bold; text-decoration: underline ; margin: 12pt  10pt  15pt
+0.256in ; text-indent: -0.256in
+; font-family: MS Sans Serif,sans-serif;  }
+     .UnderlinedHeader1 { font-size: 10pt ; font-weight: bold; margin: 2pt  0pt  5pt  0pt ; border: thin solid ; border-
+left-width: 0; border-right-width: 0; border-top-width: 0; font-family: Tahoma,sans-serif;  fhname: "UnderlinedHeader#1"; }
+
+div.footer
+        {
+        font-style: italic;
+        }
+div.footer hr
+        {
+        color: #999999;
+        height: 1px;
+        }
+
+/* LINK STYLES */
+
+a:link
+        {
+        color: #0000ff;
+        }
+a:visited
+        {
+        color: #0000ff;
+        }
+a:hover
+        {
+        color: #3366ff;
+        }
+

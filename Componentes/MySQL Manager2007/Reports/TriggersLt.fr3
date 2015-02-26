@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.0.37" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="38637,7103217245" ReportOptions.Description.Text="" ReportOptions.LastChange="39167,6046780903" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C656674025003546F70024008446174617365747301010C1B00000020446174615365744E616D653D226672786454726967676572732200010C1600000020446174615365744E616D653D22667278754F6E65220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215,9" PaperHeight="279,4" PaperSize="1" LeftMargin="5" RightMargin="5" TopMargin="7" BottomMargin="10" Columns="1" ColumnWidth="0" ColumnPositions.Text="0" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="40" Left="0" Top="117,16543" Width="778,205227" Columns="1" ColumnWidth="200" ColumnGap="20" DataSetName="frxdTriggers" PrintIfDetailEmpty="True" RowCount="0" StartNewPage="True">
+      <TfrxMemoView Name="Memo1" Left="37" Top="8,85034" Width="700" Height="32" StretchMode="smMaxHeight" Color="8421504" Font.Charset="1" Font.Color="16777215" Font.Height="-21" Font.Name="Tahoma" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text=" Trigger: [OBJECT_NAME]"/>
+    </TfrxMasterData>
+    <TfrxDetailData Name="DDL" Height="24" Left="0" Top="230,55133" Width="778,205227" AllowSplit="True" Columns="1" ColumnWidth="200" ColumnGap="20" DataSetName="frxuOne" PrintIfDetailEmpty="True" RowCount="0" Stretched="True">
+      <TfrxRichView Name="OBJECT_DDL" Left="44,55906" Top="3,40142345999999" Width="692,44094" Height="22" StretchMode="smMaxHeight" AllowExpressions="False" Frame.Style="fsDouble" GapX="2" GapY="1" PropData="0852696368456469740A730000007B5C727466315C616E73695C616E7369637067313235315C64656666305C6465666C616E67313034397B5C666F6E7474626C7B5C66305C666E696C204D532053616E732053657269663B7D7D0D0A5C766965776B696E64345C7563315C706172645C66305C667331365C7061720D0A7D0D0A00"/>
+    </TfrxDetailData>
+    <TfrxHeader Name="DDLHeader" Height="27" Left="0" Top="181,41744" Width="778,205227">
+      <TfrxMemoView Name="Memo24" Left="37" Top="0" Width="700" Height="27" StretchMode="smMaxHeight" Color="12632256" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Tahoma" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text=" DDL"/>
+    </TfrxHeader>
+    <TfrxPageFooter Name="PageFooter1" Height="40" Left="0" Top="313,70099" Width="778,205227">
+      <TfrxMemoView Name="Memo21" Left="37" Top="8,44031999999999" Width="680" Height="18" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="2" Frame.Typ="4" HAlign="haRight" ParentFont="False" Text="[PAGE_NUMBER]"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" Height="39" Left="0" Top="18,89765" Width="778,205227">
+      <TfrxMemoView Name="Memo50" Left="36" Top="0,763760000000001" Width="96" Height="14" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" ParentFont="False" Text="Date / Time:"/>
+      <TfrxMemoView Name="Memo51" Left="36" Top="15,76376" Width="96" Height="14" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" ParentFont="False" Text="Database:"/>
+      <TfrxMemoView Name="Memo52" Left="362" Top="0,763760000000001" Width="96" Height="14" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" ParentFont="False" Text="User:"/>
+      <TfrxMemoView Name="Memo53" Left="141" Top="0,763760000000001" Width="200" Height="14" StretchMode="smMaxHeight" DisplayFormat.FormatStr="dd mmmm yyyy" DisplayFormat.Kind="fkDateTime" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="1" ParentFont="False" Text="[DATE_TIME]"/>
+      <TfrxMemoView Name="Memo54" Left="141" Top="15,76376" Width="200" Height="14" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="1" ParentFont="False" Text="[DATABASE_NAME]"/>
+      <TfrxMemoView Name="Memo55" Left="467" Top="0,763760000000001" Width="264" Height="14" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="1" ParentFont="False" Text="[USER_NAME]"/>
+      <TfrxMemoView Name="Memo56" Left="362" Top="15,76376" Width="96" Height="14" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" ParentFont="False" Text="Trigger:"/>
+      <TfrxMemoView Name="Memo57" Left="467" Top="15,76376" Width="264" Height="14" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="1" ParentFont="False" Text="[OBJECT_NAME]"/>
+      <TfrxLineView Name="Line1" Left="36" Top="33,76376" Width="700" Height="0" Frame.Typ="4" Frame.Width="2"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>
