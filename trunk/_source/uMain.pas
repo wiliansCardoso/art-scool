@@ -11,6 +11,8 @@ unit uMain;
  Data de Criação....: 24/02/2015 -- 15:00
  Observações........:
  24/02/2015 - WILL - Inicio da codificação.
+ 25/02/2015 - WILL - Inserção das funções basicas para conecção com o banco,
+ e informações do Main.
 
 *******************************************************************************)
 
@@ -346,12 +348,6 @@ begin
   //  Configuracao.UsuarioCodigo := DmGlobal.QryLogin.FieldByName('COD_USUARIO' ).AsInteger;
     pnVersao.Caption           := Configuracao.Versao;
     pnUsuario.Caption          := Configuracao.UsuarioNome;
-    pnDtaFinanceiro.Caption    := 'Dta Financeiro: '+DateToStr(now);
-    Configuracao.Path_fotos_clientes := 'Fotos\C';
-    Configuracao.Path_fotos_produtos := 'Fotos\P';
-    Configuracao.Path_fotos_Empresa  := 'Fotos\E';
-    Configuracao.Path_fotos_Animais  := 'Fotos\A';
-
     pnDtaFinanceiro.Caption    := 'Dta.Finaceiro: '+Configuracao.DataCaixa;
     //01/09/2011 - WILL - Mostra texto de expiraçao da chave...
     MsgTick('', True);
