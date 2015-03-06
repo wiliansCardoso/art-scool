@@ -228,7 +228,7 @@ var
 implementation
 
 uses
-  uDM;
+  uDM, uCadAlunos;
 
 {$R *.dfm}
 
@@ -388,7 +388,18 @@ begin
   
 procedure TFrmMain.ActAlunoExecute(Sender: TObject);
 begin
-/////////////
+ // If DmGlobal.Acesso(configuracao.UsuarioCodigo,'01.01') = 'NAO' then
+//  begin
+//    application.messagebox('Acesso não permitido!','Atenção',mb_ok+MB_ICONERROR);
+    //;
+//  end else
+  if Assigned(FrmCadAlunos) then
+    FrmCadAlunos.Show
+  else
+  begin
+    FrmCadAlunos := TFrmCadAlunos.Create(Self);
+    FrmMain.MDITab.AddTab(FrmCadAlunos);
+  end;
 end;
 
 procedure TFrmMain.ClientSocketConnect(Sender: TObject;
