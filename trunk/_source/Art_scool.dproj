@@ -44,12 +44,18 @@
     </DelphiCompile>
     <DCCReference Include="crypto1.pas" />
     <DCCReference Include="Rotinas.pas" />
+    <DCCReference Include="uCadAlunos.pas">
+      <Form>FrmCadAlunos</Form>
+    </DCCReference>
     <DCCReference Include="uDM.pas">
       <Form>DmGlobal</Form>
       <DesignClass>TDataModule</DesignClass>
     </DCCReference>
     <DCCReference Include="uMain.pas">
       <Form>FrmMain</Form>
+    </DCCReference>
+    <DCCReference Include="uModCad.pas">
+      <Form>FrmModCad</Form>
     </DCCReference>
     <DCCReference Include="UnitDeclaracoes.pas" />
     <DCCReference Include="URichMenu.pas" />

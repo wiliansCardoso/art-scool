@@ -14,7 +14,9 @@ uses
   crypto1 in 'crypto1.pas',
   Rotinas in 'Rotinas.pas',
   URichMenu in 'URichMenu.pas',
-  uSplash in 'uSplash.pas' {FrmSplash};
+  uSplash in 'uSplash.pas' {FrmSplash},
+  uModCad in 'uModCad.pas' {FrmModCad},
+  uCadAlunos in 'uCadAlunos.pas' {FrmCadAlunos};
 
 {$R *.res}
 

@@ -1015,6 +1015,7 @@ begin
          (Components[i] as TJvMemoryData).Close;
 
     end;
+    //FrmPai := Nil;
 end;
 
 // ABRE QUERYS DO FORM.
