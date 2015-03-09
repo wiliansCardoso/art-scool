@@ -8,5 +8,7 @@
     <Transaction>2015/02/26 14:50:39.688.dfm,D:\PROJETOS\ARTHUS_SCOOL\_source\Unit1.dfm=D:\PROJETOS\ARTHUS_SCOOL\_source\uDM.dfm</Transaction>
     <Transaction>2015/03/06 15:56:44.535.pas,D:\PROJETOS\ARTHUS_SCOOL\_source\Unit1.pas=D:\PROJETOS\ARTHUS_SCOOL\_source\uCadAlunos.pas</Transaction>
     <Transaction>2015/03/06 15:56:44.535.dfm,D:\PROJETOS\ARTHUS_SCOOL\_source\Unit1.dfm=D:\PROJETOS\ARTHUS_SCOOL\_source\uCadAlunos.dfm</Transaction>
+    <Transaction>2015/03/09 15:43:18.115.pas,D:\PROJETOS\ARTHUS_SCOOL\_source\Unit1.pas=D:\PROJETOS\ARTHUS_SCOOL\_source\uCadProfessores.pas</Transaction>
+    <Transaction>2015/03/09 15:43:18.115.dfm,D:\PROJETOS\ARTHUS_SCOOL\_source\Unit1.dfm=D:\PROJETOS\ARTHUS_SCOOL\_source\uCadProfessores.dfm</Transaction>
   </Transactions>
 </BorlandProject>
