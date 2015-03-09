@@ -15,8 +15,9 @@ uses
   Rotinas in 'Rotinas.pas',
   URichMenu in 'URichMenu.pas',
   uSplash in 'uSplash.pas' {FrmSplash},
+  uCadAlunos in 'uCadAlunos.pas' {FrmCadAlunos},
   uModCad in 'uModCad.pas' {FrmModCad},
-  uCadAlunos in 'uCadAlunos.pas' {FrmCadAlunos};
+  uCadProfessores in 'uCadProfessores.pas' {FrmCadProfessores};
 
 {$R *.res}
 

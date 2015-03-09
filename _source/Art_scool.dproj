@@ -47,6 +47,9 @@
     <DCCReference Include="uCadAlunos.pas">
       <Form>FrmCadAlunos</Form>
     </DCCReference>
+    <DCCReference Include="uCadProfessores.pas">
+      <Form>FrmCadProfessores</Form>
+    </DCCReference>
     <DCCReference Include="uDM.pas">
       <Form>DmGlobal</Form>
       <DesignClass>TDataModule</DesignClass>

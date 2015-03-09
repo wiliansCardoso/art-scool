@@ -1,9 +1,9 @@
 object FrmModCad: TFrmModCad
   Left = 346
   Top = 194
-  Caption = 'FrmModCad'
-  ClientHeight = 445
-  ClientWidth = 654
+  Caption = 'Formulario Modelo'
+  ClientHeight = 437
+  ClientWidth = 667
   Color = clBtnFace
   Constraints.MinHeight = 250
   Constraints.MinWidth = 655
@@ -26,7 +26,7 @@ object FrmModCad: TFrmModCad
   object FlatPanel1: TFlatPanel
     Left = 0
     Top = 0
-    Width = 654
+    Width = 667
     Height = 31
     Color = 16445929
     ColorHighLight = clBtnFace
@@ -36,7 +36,7 @@ object FrmModCad: TFrmModCad
     object pnlCabecalho: TPanel
       Left = 1
       Top = 1
-      Width = 652
+      Width = 665
       Height = 37
       Align = alTop
       BevelOuter = bvNone
@@ -50,7 +50,7 @@ object FrmModCad: TFrmModCad
       ParentFont = False
       TabOrder = 0
       DesignSize = (
-        652
+        665
         37)
       object pnlTitulo: TPanel
         Left = 0
@@ -941,7 +941,7 @@ object FrmModCad: TFrmModCad
         Appearance.GradientChecked = ggVertical
       end
       object sbpMax: TAdvGlowButton
-        Left = 574
+        Left = 587
         Top = 3
         Width = 31
         Height = 24
@@ -1011,7 +1011,7 @@ object FrmModCad: TFrmModCad
         Appearance.GradientChecked = ggVertical
       end
       object SpbSair: TAdvGlowButton
-        Left = 605
+        Left = 618
         Top = 3
         Width = 44
         Height = 24
@@ -1091,20 +1091,22 @@ object FrmModCad: TFrmModCad
   object TabPages: TRzPageControl
     Left = 0
     Top = 31
-    Width = 654
-    Height = 414
+    Width = 667
+    Height = 406
     ActivePage = TbShTela
     ActivePageDefault = TbShTela
     Align = alClient
     AlignTabs = True
+    HotTrackColorSource = htcsHotTrackColorProp
+    HotTrackStyle = htsTabBar
     ParentColor = False
     TabColors.Unselected = 16311243
     TabIndex = 0
     TabOrder = 1
     TabStyle = tsRoundCorners
     UseGradients = False
-    ExplicitLeft = 24
-    ExplicitTop = 144
+    ExplicitLeft = 1
+    ExplicitTop = 32
     FixedDimension = 19
     object TbShTela: TRzTabSheet
       ImageIndex = 21
@@ -1113,17 +1115,20 @@ object FrmModCad: TFrmModCad
     object TbShTabela: TRzTabSheet
       ImageIndex = 130
       Caption = '&Grade'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       DesignSize = (
-        650
-        388)
-      object DbgBusca: TJvDBGrid
-        Left = 3
-        Top = 8
-        Width = 645
-        Height = 350
+        663
+        380)
+      object TblOcorrencia: TJvDBGrid
+        Left = 7
+        Top = 9
+        Width = 652
+        Height = 341
         Anchors = [akLeft, akTop, akRight, akBottom]
         Ctl3D = True
-        DataSource = DSBusca
         FixedColor = 16311243
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
@@ -1151,22 +1156,24 @@ object FrmModCad: TFrmModCad
       end
       object PnlCustomGrid: TPanel
         Left = 0
-        Top = 364
-        Width = 650
+        Top = 356
+        Width = 663
         Height = 24
         Align = alBottom
         BevelOuter = bvNone
         TabOrder = 1
-        object lblFixaColuna: TLabel
+        ExplicitTop = 252
+        ExplicitWidth = 732
+        object lblFixColuna: TLabel
           Left = 282
           Top = 5
           Width = 69
           Height = 13
           Caption = 'Fi&xar Colunas:'
-          FocusControl = SpEdtFixaCol
+          FocusControl = SpEdtFixCol
           Transparent = True
         end
-        object SpEdtFixaCol: TRzSpinEdit
+        object SpEdtFixCol: TRzSpinEdit
           Left = 358
           Top = 1
           Width = 37
@@ -1177,7 +1184,7 @@ object FrmModCad: TFrmModCad
           ReadOnly = True
           TabOrder = 2
         end
-        object CbxSalvaGrid: TRzCheckBox
+        object CbxSalvGrid: TRzCheckBox
           Left = 7
           Top = 4
           Width = 144
@@ -1188,7 +1195,7 @@ object FrmModCad: TFrmModCad
           TabOrder = 0
           WordWrap = True
         end
-        object CbxGdZebrado: TRzCheckBox
+        object CbxZebrado: TRzCheckBox
           Left = 158
           Top = 4
           Width = 96

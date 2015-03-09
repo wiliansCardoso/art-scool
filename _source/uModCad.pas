@@ -21,7 +21,7 @@ uses
   Dialogs, Grids, Wwdbigrd, Wwdbgrid, StdCtrls, Mask, RzEdit, AdvOfficePager,
   AdvGlowButton, ExtCtrls, TFlatPanelUnit, Rotinas, DB, DBAccess, MyAccess,
   MemDS, DrdDataSet, RzButton, RzRadChk, RzSpnEdt, DBGrids, JvExDBGrids,
-  JvDBGrid, RzTabs;
+  JvDBGrid, RzTabs, AdvToolBar, AdvToolBarStylers, Rotinas;
 
 type
 
@@ -51,12 +51,12 @@ type
     TabPages: TRzPageControl;
     TbShTela: TRzTabSheet;
     TbShTabela: TRzTabSheet;
-    DbgBusca: TJvDBGrid;
+    TblOcorrencia: TJvDBGrid;
     PnlCustomGrid: TPanel;
-    lblFixaColuna: TLabel;
-    SpEdtFixaCol: TRzSpinEdit;
-    CbxSalvaGrid: TRzCheckBox;
-    CbxGdZebrado: TRzCheckBox;
+    lblFixColuna: TLabel;
+    SpEdtFixCol: TRzSpinEdit;
+    CbxSalvGrid: TRzCheckBox;
+    CbxZebrado: TRzCheckBox;
     procedure SpbCancelarClick(Sender: TObject);
     procedure SpbLimpapClick(Sender: TObject);
     procedure SpbEditarClick(Sender: TObject);
@@ -77,7 +77,6 @@ type
   private
     { Private declarations }
     BSalvGrid: Boolean;
-
   public
     { Public declarations }
   end;

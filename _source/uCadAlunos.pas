@@ -6,7 +6,8 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, uModCad, DB, DBAccess, MyAccess, MemDS, DrdDataSet, RzButton,
   RzRadChk, StdCtrls, Mask, RzEdit, RzSpnEdt, Grids, DBGrids, JvExDBGrids,
-  JvDBGrid, RzTabs, AdvGlowButton, ExtCtrls, TFlatPanelUnit, Rotinas;
+  JvDBGrid, RzTabs, AdvGlowButton, ExtCtrls, TFlatPanelUnit, Rotinas,
+  AdvToolBar, AdvToolBarStylers;
 
     const
       _cChavePri  = 'COD_ALUNOS';          // Chave primaria.
@@ -22,10 +23,9 @@ type
     procedure FormDestroy(Sender: TObject);
   private
     { Private declarations }
-    BSalvGrid: Boolean;
     FStateForm:TStateForm;
     procedure StateCheck(FState:TStateForm);
-    property StateForm:TStateForm read FStateForm write StateCheck;       
+    property StateForm:TStateForm read FStateForm write StateCheck;    
   public
     { Public declarations }
   end;

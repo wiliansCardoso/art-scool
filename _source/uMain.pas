@@ -183,18 +183,21 @@ Type
     N1: TMenuItem;
     FecharTodas1: TMenuItem;
     ActionList1: TActionList;
-    ActAluno: TAction;
+    ActAlunos: TAction;
     AdvToolBar1: TAdvToolBar;
     AdvGlowButton1: TAdvGlowButton;
+    AdvGlowButton2: TAdvGlowButton;
+    ActProfessores: TAction;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
     procedure FormCreate(Sender: TObject);
-    procedure ActAlunoExecute(Sender: TObject);
+    procedure ActAlunosExecute(Sender: TObject);
     procedure ClientSocketConnect(Sender: TObject; Socket: TCustomWinSocket);
     procedure ClientSocketError(Sender: TObject; Socket: TCustomWinSocket;
       ErrorEvent: TErrorEvent; var ErrorCode: Integer);
     procedure ClientSocketRead(Sender: TObject; Socket: TCustomWinSocket);
     procedure FormShow(Sender: TObject);
+    procedure ActProfessoresExecute(Sender: TObject);
   private
     { Private declarations }
     Arquivo: TextFile;
@@ -228,7 +231,7 @@ var
 implementation
 
 uses
-  uDM, uCadAlunos;
+  uDM, uCadAlunos, uCadProfessores;
 
 {$R *.dfm}
 
@@ -385,8 +388,11 @@ begin
       
   end;
 
-  
-procedure TFrmMain.ActAlunoExecute(Sender: TObject);
+//******************************************************************************
+//                        I N I C I O    M E N U S
+//******************************************************************************
+
+procedure TFrmMain.ActAlunosExecute(Sender: TObject);
 begin
  // If DmGlobal.Acesso(configuracao.UsuarioCodigo,'01.01') = 'NAO' then
 //  begin
@@ -401,6 +407,27 @@ begin
     FrmMain.MDITab.AddTab(FrmCadAlunos);
   end;
 end;
+
+procedure TFrmMain.ActProfessoresExecute(Sender: TObject);
+begin
+ // If DmGlobal.Acesso(configuracao.UsuarioCodigo,'01.01') = 'NAO' then
+//  begin
+//    application.messagebox('Acesso não permitido!','Atenção',mb_ok+MB_ICONERROR);
+    //;
+//  end else
+  if Assigned(FrmCadProfessores) then
+    FrmCadProfessores.Show
+  else
+  begin
+    FrmCadProfessores := TFrmCadProfessores.Create(Self);
+    FrmMain.MDITab.AddTab(FrmCadProfessores);
+  end;
+end;
+
+//******************************************************************************
+//                          F I M    M E N U S
+//******************************************************************************
+
 
 procedure TFrmMain.ClientSocketConnect(Sender: TObject;
   Socket: TCustomWinSocket);
