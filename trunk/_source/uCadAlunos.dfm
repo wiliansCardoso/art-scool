@@ -9,33 +9,32 @@ inherited FrmCadAlunos: TFrmCadAlunos
   TextHeight = 13
   inherited FlatPanel1: TFlatPanel
     Width = 682
-    ExplicitWidth = 811
+    ExplicitWidth = 682
     inherited pnlCabecalho: TPanel
       Width = 680
-      ExplicitWidth = 809
+      ExplicitWidth = 680
       inherited sbpMax: TAdvGlowButton
         Left = 602
-        ExplicitLeft = 731
+        ExplicitLeft = 602
       end
       inherited SpbSair: TAdvGlowButton
         Left = 633
-        ExplicitLeft = 762
+        ExplicitLeft = 633
       end
     end
   end
   inherited TabPages: TRzPageControl
     Width = 682
     Height = 420
-    ExplicitWidth = 811
+    ExplicitWidth = 682
     ExplicitHeight = 420
     FixedDimension = 19
     inherited TbShTela: TRzTabSheet
-      ExplicitLeft = 3
-      ExplicitWidth = 807
+      ExplicitWidth = 678
       ExplicitHeight = 394
     end
     inherited TbShTabela: TRzTabSheet
-      ExplicitWidth = 807
+      ExplicitWidth = 678
       ExplicitHeight = 394
       inherited TblOcorrencia: TJvDBGrid
         Left = 5
@@ -46,7 +45,7 @@ inherited FrmCadAlunos: TFrmCadAlunos
         Top = 370
         Width = 678
         ExplicitTop = 370
-        ExplicitWidth = 807
+        ExplicitWidth = 678
       end
     end
   end

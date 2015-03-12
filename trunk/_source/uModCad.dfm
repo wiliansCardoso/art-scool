@@ -158,8 +158,8 @@ object FrmModCad: TFrmModCad
             D7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B3
             9DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7B39DD7
             B39DD7B39DD7B39D0000}
-          ExplicitLeft = 131
-          ExplicitTop = -1
+          Transparent = True
+          ExplicitHeight = 30
         end
         object lblStatus: TLabel
           Left = 0
@@ -1105,8 +1105,6 @@ object FrmModCad: TFrmModCad
     TabOrder = 1
     TabStyle = tsRoundCorners
     UseGradients = False
-    ExplicitLeft = 1
-    ExplicitTop = 32
     FixedDimension = 19
     object TbShTela: TRzTabSheet
       ImageIndex = 21
@@ -1115,10 +1113,6 @@ object FrmModCad: TFrmModCad
     object TbShTabela: TRzTabSheet
       ImageIndex = 130
       Caption = '&Grade'
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       DesignSize = (
         663
         380)
@@ -1162,8 +1156,6 @@ object FrmModCad: TFrmModCad
         Align = alBottom
         BevelOuter = bvNone
         TabOrder = 1
-        ExplicitTop = 252
-        ExplicitWidth = 732
         object lblFixColuna: TLabel
           Left = 282
           Top = 5
